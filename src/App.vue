@@ -1,15 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Hola estoy usando Vue, pero es mejor React"/>
+  <HelloUPS texto="Programacion"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloUPS from './components/HelloUPS'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloUPS
   }
 }
 </script>
@@ -20,6 +21,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
