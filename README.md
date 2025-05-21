@@ -30,7 +30,7 @@ Instalar firebase
 ```bash
 npm install firebase
 ```
-En la carpeta publica, aqui va '''dist'''
+En la carpeta publica, aqui va ```dist```
 Luego creamos nuestro archivo firebase.js con las credenciales del proyecto 
 ```bash
 npm install -g firebase-tools
